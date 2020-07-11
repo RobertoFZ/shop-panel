@@ -1,0 +1,10 @@
+.order-data {
+  &__item {
+    color: $accent-color;
+  }
+  &__value {
+    &-money{
+      font-size: 18px;
+    }
+  }
+}

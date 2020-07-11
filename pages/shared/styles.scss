@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+
+@import "./variables.scss";
+@import "./utils.scss";
+
+@import "./PageBanner/PageBanner.scss";
+@import "./Container/Container.scss";
+@import "./Navbar/Navbar.scss";
+
+// DashboardLayout component
+@import "./DashboardLayout/DashboardLayout.scss";
+// CenterHorizontal component
+@import "./CenterHorizontal/CenterHorizontal.scss";
+// ArcaInput component
+@import "./ArcaInput/ArcaInput.scss";
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-white{
+  color: #ffffff;
+}
+
+.ant-divider{
+  background: $primary-color;
+}
+
+.ant-layout-header{
+  //background-color: $accent-color!important;
+}

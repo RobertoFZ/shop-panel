@@ -1,0 +1,15 @@
+@import "./../shared/styles.scss";
+@import "./components/SubategoriesTable/SubategoriesTable.scss";
+@import "./components/SubcategoryModal/SubcategoryModal.scss";
+
+.subcategories {
+  &__title {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 300;
+    span {
+      font-size: 28px;
+      //font-weight: bold;
+    }
+  }
+}

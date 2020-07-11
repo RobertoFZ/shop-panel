@@ -1,0 +1,23 @@
+@import "./../utils.scss";
+
+.page_banner {
+  min-height: 100vh;
+
+  &__title,
+  &__subtitle {
+    color: #ffffff;
+    text-align: center;
+
+    @include for-tablet-landscape-up {
+      text-align: left;
+    }
+  }
+
+  &__title {
+    margin-bottom: 3rem;
+    font-size: 36px;
+  }
+
+  &__subtitle {
+  }
+}

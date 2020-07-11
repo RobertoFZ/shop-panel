@@ -1,0 +1,32 @@
+// UserDropdown component
+@import "./components/UserDropdown/UserDropdown.scss";
+// BusinessDropdown component
+@import "./components/BusinessDropdown/BusinessDropdown.scss";
+// BusinessEditModal component
+@import "./components/BusinessEditModal/BusinessEditModal.scss";
+
+$navbar-height: 64px;
+
+.dashboard-layout {
+  min-height: 100vh !important;
+  max-height: 100vh;
+
+  &__content {
+    padding: 24;
+    margin: 0;
+    min-height: 81vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  &__logo {
+    width: 120px;
+    height: 65px;
+    background-image: url("/logo-white.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+  }
+}

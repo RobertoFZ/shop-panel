@@ -1,0 +1,26 @@
+.navbar {
+  &__logo {
+    width: 100%;
+
+    @include for-phone-only {
+      max-width: 210px;
+      margin: auto;
+    }
+
+    @include for-tablet-portrait-up {
+      max-width: 230px;
+      margin: auto;
+    }
+  }
+
+  &__logo_container {
+    margin: 3rem 0;
+    text-align: center;
+    width: 100%;
+
+    @include for-tablet-landscape-up {
+      text-align: left;
+      max-width: 160px;
+    }
+  }
+}

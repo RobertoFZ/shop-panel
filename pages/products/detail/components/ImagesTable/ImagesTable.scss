@@ -1,0 +1,14 @@
+.images-table {
+  &__image {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  &__preview {
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.orders-table {
+  margin-top: 2rem;
+
+  &__image {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

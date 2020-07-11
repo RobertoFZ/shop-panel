@@ -1,0 +1,25 @@
+.products-data {
+  min-width: 100%;
+  overflow-x: scroll;
+
+  &__table {
+    width: 100%;
+
+    @include for-tablet-portrait-up {
+      min-width: 100%;
+      overflow-x: scroll;
+    }
+  }
+  &__image {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  @include for-tablet-landscape-up {
+    overflow-x: visible;
+  }
+}

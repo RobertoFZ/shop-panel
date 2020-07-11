@@ -1,0 +1,14 @@
+@import "./../shared/styles.scss";
+@import "./components/ProductsTable/ProductsTable.scss";
+
+.products {
+  &__title {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 300;
+    span {
+      font-size: 28px;
+      //font-weight: bold;
+    }
+  }
+}

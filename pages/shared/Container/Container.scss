@@ -1,0 +1,22 @@
+.container {
+
+  @include for-phone-only {
+    margin: 0 30px;
+  }
+
+  @include for-tablet-portrait-up {
+    margin: 0 110px;
+  }
+
+  @include for-tablet-landscape-up{
+    margin: 0 175px;
+  }
+
+  @include for-desktop-up {
+    margin: 0 220px;
+  }
+
+  @include for-big-desktop-up {
+    margin: 0 290px;
+  }
+}

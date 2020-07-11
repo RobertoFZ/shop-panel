@@ -1,0 +1,32 @@
+.login_form {
+  &__bottom {
+    text-align: right;
+  }
+
+  // Antd styles
+  .ant-input {
+    &, &-password {
+      padding: .5rem 1rem;
+    }
+
+    &-password{
+      max-height: 40px;
+    }
+  }
+
+  .ant-checkbox-wrapper{
+    color: #ffffff;
+  }
+
+  .ant-form-item-has-error .ant-input,
+  .ant-form-item-has-error .ant-input-affix-wrapper,
+  .ant-form-item-has-error .ant-input:hover,
+  .ant-form-item-has-error .ant-input-affix-wrapper:hover {
+    border-color: #ffffff;
+  }
+  .ant-form-item-has-error .ant-form-item-explain,
+  .ant-form-item-has-error .ant-form-item-split {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+}

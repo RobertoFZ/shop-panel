@@ -1,0 +1,15 @@
+.site-border-less-wrapper {
+    padding: 30px;
+  }
+
+  .ad {
+    position: relative;
+    bottom: 30px;
+}
+
+.ad-text{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}

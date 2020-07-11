@@ -1,0 +1,25 @@
+@import "./shared/styles.scss";
+
+@import "./../shared/styles.scss";
+// OrdersTable component
+@import "../orders/components/OrdersTable/OrdersTable.scss";
+// OrdersModal component
+@import "../orders/components/OrderModal/OrderModal.scss";
+// CustomerData component
+@import "../orders/components/CustomerData/CustomerData.scss";
+// OrderData component
+@import "../orders/components/OrderData/OrderData.scss";
+// ProductsData component
+@import "../orders/components/ProductsData/ProductsData.scss";
+
+.home {
+  &__title {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 300;
+    span {
+      font-size: 28px;
+      //font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "./../shared/styles.scss";
+@import "./components/CategoriesTable/CategoriesTable.scss";
+@import "./components/CategoryModal/CategoryModal.scss";
+
+.categories {
+  &__title {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 300;
+    span {
+      font-size: 28px;
+      //font-weight: bold;
+    }
+  }
+}
