@@ -23,7 +23,9 @@ $navbar-height: 64px;
   &__logo {
     width: 120px;
     height: 65px;
-    background-image: url("/logo-white.png");
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+    background-image: url("/logo.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

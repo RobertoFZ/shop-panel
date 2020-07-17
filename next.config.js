@@ -17,7 +17,8 @@ const nextConfig = {
     apiUrl: process.env.API_URL,
     serverUrl: process.env.SERVER_URL,
     applicationUrl: process.env.APPLICATION_URL,
-    supportPhone: process.env.SUPPORT_PHONE
+	supportPhone: process.env.SUPPORT_PHONE,
+	appName: process.env.APP_NAME
 	},
 	distDir: '.next',
 };

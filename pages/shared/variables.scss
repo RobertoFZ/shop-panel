@@ -1,2 +1,49 @@
-$primary-color: #825ee4;
-$accent-color: #648cff;
+$primary-color: #191b1c;
+$accent-color: #37abbd;
+
+// Animation
+@-webkit-keyframes EventaAnimation {
+    0% {
+      background-position: 0% 97%;
+    }
+    50% {
+      background-position: 100% 4%;
+    }
+    100% {
+      background-position: 0% 97%;
+    }
+  }
+  @-moz-keyframes EventaAnimation {
+    0% {
+      background-position: 0% 97%;
+    }
+    50% {
+      background-position: 100% 4%;
+    }
+    100% {
+      background-position: 0% 97%;
+    }
+  }
+  @-o-keyframes EventaAnimation {
+    0% {
+      background-position: 0% 97%;
+    }
+    50% {
+      background-position: 100% 4%;
+    }
+    100% {
+      background-position: 0% 97%;
+    }
+  }
+  @keyframes EventaAnimation {
+    0% {
+      background-position: 0% 97%;
+    }
+    50% {
+      background-position: 100% 4%;
+    }
+    100% {
+      background-position: 0% 97%;
+    }
+  }
+  

@@ -9,9 +9,11 @@ const BusinessDropdown = ({ business, onEdit, onLogout, onConfig }: { business: 
       <Menu.Item key='profile' onClick={() => onEdit(business)}>
         <Button type='link' style={{ color: '#212121' }}>Editar</Button>
       </Menu.Item>
+      {/*
       <Menu.Item key='configuration' onClick={() => onConfig(business)}>
         <Button type='link' style={{ color: '#212121' }}>Configuración</Button>
       </Menu.Item>
+      */}
       <Menu.Divider />
       <Menu.Item key='logout' onClick={() => onLogout()}>
         <Button type='link' ><LogoutOutlined /> Salir</Button>

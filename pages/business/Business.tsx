@@ -71,7 +71,7 @@ class Business extends Component<Props, State> {
           <Row>
             <Col xs={24} lg={{ span: 12, offset: 6 }} xl={{ span: 10, offset: 7 }}>
               <CenterHorizontal>
-                <img className='business__logo' src='/logo-white.png' />
+                <img className='business__logo' src='/logo.png' />
               </CenterHorizontal>
               <h1 className='business__title'>Selecciona un negocio</h1>
               <p className='text-center text-white'>
@@ -95,9 +95,11 @@ class Business extends Component<Props, State> {
                   <Divider />
                 </Col>
                 <Col xs={24} md={16}>
+                  {/*
                   <p className='business__help_text'>
                     ¿Aún no cuentas con un negocio?<br /><Link href='/business/create'><a>Crea uno <ArrowRightOutlined /></a></Link>
                   </p>
+                  */}
                 </Col>
                 <Col className='text-right' xs={24} md={8}>
                   <Button disabled={loading} type="primary" onClick={this.selectBusiness}>

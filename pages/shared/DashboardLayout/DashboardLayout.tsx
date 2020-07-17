@@ -252,9 +252,11 @@ class DashboardLayout extends Component<Props, State> {
                 <Menu.Item key='orders' onClick={() => this.handleKeySelected('/orders')}>Pedidos</Menu.Item>
                 <Menu.Item key='customers' onClick={() => this.handleKeySelected('/customers')}>Clientes</Menu.Item>
               </SubMenu>
+              {/*
               <Menu.Item key='subscription' onClick={() => this.handleKeySelected('/subscription')} icon={<SmileOutlined />}>
                 Suscripción
               </Menu.Item>
+              */}
             </Menu>
           </Sider>
           <Layout>

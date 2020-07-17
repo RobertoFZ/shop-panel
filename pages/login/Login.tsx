@@ -61,7 +61,7 @@ class Login extends Component<Props, State> {
           <Row>
             <Col xs={24} lg={{ span: 12, offset: 6 }} xl={{ span: 8, offset: 8 }}>
               <CenterHorizontal>
-                <img className='login__logo' src='/logo-white.png' />
+                <img className='login__logo' src='/logo.png' />
               </CenterHorizontal>
               <h1 className='login__title'>Iniciar sesión</h1>
               <LoginForm onSubmit={this.doLogin} loading={loading} />

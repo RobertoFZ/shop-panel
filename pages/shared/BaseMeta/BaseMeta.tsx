@@ -19,7 +19,7 @@ type Props = {
 }
 
 const BaseMeta = ({
-  title = 'Arca de Troya',
+  title = process.env.appName,
   description = 'El lugar para que compres o vendas tu producto y logres llegar a la presencia que buscas en internet.',
   subject = 'Vende y compra cuando quieras',
   copyright = 'Twosoft S.A.P.I de C.V',
@@ -29,7 +29,7 @@ const BaseMeta = ({
 
   if (!openGraph) {
     openGraph = {
-      title: 'Arca de Troya',
+      title: process.env.appName,
       type: 'E-commerce',
       url: `${process.env.applicationUrl}`,
       image: `${process.env.applicationUrl}/logo.jpg`,
