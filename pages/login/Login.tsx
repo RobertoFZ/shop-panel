@@ -69,11 +69,15 @@ class Login extends Component<Props, State> {
                 <Col span={24}>
                   <Divider style={{ marginTop: 0 }} />
                 </Col>
+                {
+                  /*
                 <Col xs={24}>
                   <p className='login__help_text text-center'>
                     ¿Aún no tienes una cuenta?<br /><Link href='/signup'><a>Reg&iacute;strate <ArrowRightOutlined /></a></Link>
                   </p>
                 </Col>
+                  */
+                }
               </Row>
             </Col>
           </Row>
